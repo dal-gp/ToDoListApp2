@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5badcf-8be3-4a6d-8d6d-496341479fdc" name="Changes" comment="setup project&#10;&#10;TODO: comment">
-      <change afterPath="$PROJECT_DIR$/src/com/example/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/ToDoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/ToDoList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/User.java" afterDir="false" />
@@ -26,21 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dal-gp"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dal-gp&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:dal-gp/ToDoListApp2.git",
-    "accountId": "50b5b6a9-85df-4133-a233-beb5dec7c879"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:dal-gp/ToDoListApp2.git&quot;,
+    &quot;accountId&quot;: &quot;50b5b6a9-85df-4133-a233-beb5dec7c879&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2g2Pa4Cyxez3pnttNvM5OeYfb9A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,7 +54,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "authentication",
+    "git-widget-placeholder": "list-operations",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>

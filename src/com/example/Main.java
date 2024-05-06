@@ -74,9 +74,11 @@ public class Main {
         if(user != null) {
             System.out.println(user);
         } else {
-            System.out.println("User doesnot exist!");
+            System.out.println("User does not exist!");
         }
-        // TODO: Add the to-do list operations
+        // Add the to-do list operations
+        ToDoList toDoList = new ToDoList(user);
+        toDoList.run();
     }
 
     public static void onSignUp() {

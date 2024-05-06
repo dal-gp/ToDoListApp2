@@ -1,12 +1,16 @@
 package com.example;
 
+import java.util.ArrayList;
+
 public class User {
     String username;
     String password;
+    ArrayList<ToDoItem> toDoItems;
 
     public User(String username, String password) {
         this.username = username;
         this.password = password;
+        this.toDoItems = new ArrayList<>();
     }
 
     public String getUsername() {
@@ -23,6 +27,10 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public ArrayList<ToDoItem> getToToDoItems() {
+        return this.toDoItems;
     }
 
     @Override
