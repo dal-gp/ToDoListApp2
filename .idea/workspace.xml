@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5badcf-8be3-4a6d-8d6d-496341479fdc" name="Changes" comment="refactor">
+    <list default="true" id="3a5badcf-8be3-4a6d-8d6d-496341479fdc" name="Changes" comment="setup project&#10;&#10;TODO: comment">
+      <change afterPath="$PROJECT_DIR$/src/com/example/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/IAuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/IAuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,12 +46,14 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "authentication",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -86,12 +90,32 @@
       <option name="project" value="LOCAL" />
       <updated>1714892852272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="setup project&#10;&#10;TODO: comment">
+      <option name="closed" value="true" />
+      <created>1714914043540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714914043540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="setup project&#10;&#10;TODO: comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup project&#10;&#10;TODO: comment" />
   </component>
 </project>

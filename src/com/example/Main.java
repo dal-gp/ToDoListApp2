@@ -8,17 +8,19 @@ public class Main {
     private static ArrayList<User> users =new ArrayList<>();
 
     // mock auth service that always returns the first user when log in, and does nothing when sign up
-    private static IAuthenticationService authService = new IAuthenticationService() {
-        @Override
-        public User signUp(String username, String password){
-            return null;
-        }
+//    private static IAuthenticationService authService = new IAuthenticationService() {
+//        @Override
+//        public User signUp(String username, String password){
+//            return null;
+//        }
+//
+//        @Override
+//        public User logIn(String username, String password){
+//            return users.get(0);
+//        }
+//    };
 
-        @Override
-        public User logIn(String username, String password){
-            return users.get(0);
-        }
-    };
+    private static IAuthenticationService authService = new AuthenticationService();
 
     private static boolean isRunning = true;
 
@@ -33,9 +35,9 @@ public class Main {
     public static void showMenu(){
         System.out.println("Welcome");
         System.out.println("1. Log In");
-        System.out.println("2. Sing Up");
+        System.out.println("2. Sign Up");
         System.out.println("3. Exit");
-        System.out.println("Enter your choice: ");
+        System.out.print("Enter your choice: ");
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
         handleMenu(choice);
@@ -69,6 +71,11 @@ public class Main {
         System.out.println("Enter password: ");
         String password = scanner.nextLine();
         User user = authService.logIn(username, password);
+        if(user != null) {
+            System.out.println(user);
+        } else {
+            System.out.println("User doesnot exist!");
+        }
         // TODO: Add the to-do list operations
     }
 
@@ -79,6 +86,10 @@ public class Main {
         System.out.println("Enter password: ");
         String password = scanner.nextLine();
         User user= authService.signUp(username, password);
-        // TODO: Shows a msg based on the result
+        if(user != null) {
+            System.out.println("User " + user.getUsername() + " has been created successfully!");
+        } else {
+            System.out.println("The username is already taken");
+        }
     }
 }
